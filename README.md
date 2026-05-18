@@ -74,3 +74,15 @@ The Power BI semantic layer connects directly to the SQL Server Data Warehouse. 
 - **Engineering Disciplines:** Extract-Transform-Load (ETL Pipelines), Relational Star Schema Modeling, Strategic Business Intelligence.
 
 ---
+## 📂 Repository Structure
+```text
+├── Data/
+│   └── egypt_real_estate_listings.csv     # Raw Scraped Dataset (Bronze Layer)
+|   └──  final_cleaned_real_estate.csv
+├── Notebooks/
+│   ├── exploration.ipynb                  # Initial EDA Notebook
+│   ├── cleaning.ipynb                     # Silver Layer Transformation Logic
+│   └── sql.ipynb                          # SQL Data Warehouse Creation Script
+├── Dashboard/
+│   └── RealestateDashboard.pbix           # Compiled Interactive Power BI Report
+└── README.md
